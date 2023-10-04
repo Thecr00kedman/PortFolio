@@ -9,7 +9,7 @@ export const HeaderContainer=styled(Box)((theme)=>({
      
      marginTop:'2rem',
     "& div":{
-       paddingRight:"10px"
+       paddingRight:"9px"
     },
     
         "& div >h4":{
