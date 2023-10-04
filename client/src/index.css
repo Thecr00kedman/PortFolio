@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.progress{
+  height: 10px;
+  background-color: rgb(161, 160, 160);
+  width: 100%;
+
+};
+.progress[data-progress="70%"]{
+  width: 100%;
+  background: linear-gradient(90deg, #007acc 70%, rgb(121, 120, 120) 0%);
+}
+.progress[data-progress="80%"]{
+  width: 100%;
+  background: linear-gradient(90deg, #007acc 80%, rgb(121, 120, 120) 0%);
+}
+.progress[data-progress="70%"]{
+  width: 100%;
+  background: linear-gradient(90deg, #007acc 70%, rgb(121, 120, 120) 0%);
+}
+.progress[data-progress="60%"]{
+  width: 100%;
+  background: linear-gradient(90deg, #007acc 60%, rgb(121, 120, 120) 0%);
+}
+
