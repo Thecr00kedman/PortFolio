@@ -13,7 +13,7 @@ import FoodZone from "../assets/Media/FoodZone.mp4";
 export const Projects = () => {
   return (
     <>
-    <Box sx={{color:"whitesmoke",background:'black'}}>
+    <Box sx={{color:"whitesmoke",background:'black',height:'100vh',}}>
     <div style={{alignItems:'center'}}>
      <Box><Typography variant="h3" sx={{fontWeight:'500',textAlign:'center'}}>My Projects</Typography></Box>
 

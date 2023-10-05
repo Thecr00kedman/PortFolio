@@ -7,8 +7,10 @@ export const HeaderContainer=styled(Box)((theme)=>({
      justifyContent:'center',
      background:'black',
      color:'whitesmoke',
-     padding:'1rem 2rem',
-     height:'500px',
+     padding:'2rem 2rem',
+     height:'100vh',
+     marginTop: '0px', 
+
      alignItems:'center',
      
             "@media only screen and (max-width: 519px)": {
@@ -32,21 +34,22 @@ export const ImageContainer = styled(Box)((theme)=>({
         height:"100%",
         width:'100%',
         objectFit:'cover',
-        background:'#D1D8BF',
         borderRadius:'50%',
-        boxShadow:"2px 2px 35px 2px #38B6CF", 
+        boxShadow:"2px 2px 60px 2px  #093987", 
 
       },
       "@media (min-width:520px max-width: 768px)": {
         /* Styles for screens up to 768px wide */
         width:'9rem',
+        paddingTop:'1rem',
         height:'9rem',  
 
       },
     "@media (max-width: 519px)": {
         /* Styles for screens up to 519px wide */
-        width:'8rem',
-        height:'8rem',   
+        width:'12rem',
+        height:'12rem',   
+        paddingTop:'1rem',
         whiteSpace:'nowrap'
             
       },

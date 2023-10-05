@@ -14,7 +14,7 @@ export const Home = ()=>{
         <MainBox>
             <Navbar/>
             <Box>
-               <Header/>
+               <section id='Header'><Header/></section>
                <section id="Skills"><Skills/></section>
                <section id="Projects"><Projects/></section>
                <section id="Services"><Services/></section>

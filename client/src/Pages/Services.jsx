@@ -9,7 +9,7 @@ export const Services = () =>{
 
 
     return(
-        <Box sx={{background:'black',color:'whitesmoke'}}>
+        <Box sx={{background:'black',color:'whitesmoke',}}>
                     <MainContainer>
                         <div style={{padding:'1rem'}}>
                         <Typography variant="h3" sx={{fontWeight:"600"}}>My Services</Typography>

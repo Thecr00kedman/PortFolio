@@ -21,7 +21,7 @@ export const ContactMe = ()=> {
     return(
        
        <>
-       <div style={{backgroundColor:'black',color:'whitesmoke',paddingBottom:'2rem'}}>
+       <div style={{backgroundColor:'black',color:'whitesmoke',paddingBottom:'2rem',}}>
        <Typography variant="h3" sx={{textAlign:'center'}}>Contact Me</Typography>
        <div style={{margin:"0.5rem 2rem",alignItems:'center'}}>
        

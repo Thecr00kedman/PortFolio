@@ -12,7 +12,7 @@ export const Navbar =()=>{
     return(
         <Nav>
             <Navcontainer>
-                    <Link style={{  display:'flex', flexDirection:'row',}} to={"/"}><ViewInArIcon /><h3>Portfolio</h3></Link>
+                    <a style={{  display:'flex', flexDirection:'row',}} href="#Header"><ViewInArIcon /><h3>Portfolio</h3></a>
                 <div>
                     <a href="#Skills" >Skills</a>
                     <a href="#Projects">Projects</a>

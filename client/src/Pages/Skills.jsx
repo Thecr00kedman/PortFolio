@@ -7,7 +7,7 @@ export const Skills = ()=>{
 
 
     return(
-          <Box sx={{background:'black',color:'whitesmoke',height:'500px'}}>
+          <Box sx={{background:'black',color:'whitesmoke',height:'100vh'}}>
             <CardHeader>
                <Typography variant="h3">My Skills</Typography>
                 <Typography>-What I know-</Typography>

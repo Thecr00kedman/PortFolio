@@ -7,12 +7,14 @@ export const Nav = styled(Box)((theme)=>({
     overflow:'hidden',
     border:'none',
     position:'fixed',
+    top:0,
     borderBottom:"1px solid whitesmoke",
+    zIndex:'2',
 
     "@media only screen and (max-width: 520px)": {
         /* Styles for screens up to 768px wide */
           width: "100%",
-          fontSize:'0.4rem',
+          fontSize:'0.8rem',
           background: 'black',
         
       },
@@ -34,7 +36,7 @@ export const Navcontainer= styled(Box)((theme)=>({
     
     "& a":{
         textDecoration:'none',
-        padding:'1rem 0.8rem',
+        padding:'1rem 0.3rem',
         color:'white',
         alignItems:'center',
     },
