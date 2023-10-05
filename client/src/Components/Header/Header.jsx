@@ -1,6 +1,6 @@
 import {Typography,Box} from "@mui/material"
 import { HeaderContainer, ImageContainer} from "./styles"
-import ProfilePhoto from '../../assets/ProfilePhoto.JPG'
+import ProfilePhoto from '../../assets/ProfilePhoto.jpg'
 
 
 export const Header = ()=>{
