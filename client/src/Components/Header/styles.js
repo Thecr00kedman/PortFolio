@@ -10,7 +10,6 @@ export const HeaderContainer=styled(Box)((theme)=>({
      padding:'2rem 2rem',
      height:'100vh',
      marginTop: '0px', 
-
      alignItems:'center',
      
             "@media only screen and (max-width: 519px)": {

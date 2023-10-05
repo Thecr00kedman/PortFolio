@@ -4,7 +4,6 @@ import ProfilePhoto from '../../assets/ProfilePhoto.Jpg'
 
 
 export const Header = ()=>{
-
     return(
         <>
         <HeaderContainer>
@@ -20,5 +19,4 @@ export const Header = ()=>{
         </>
     )
 }
-
 export default Header
