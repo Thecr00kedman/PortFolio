@@ -6,8 +6,6 @@ import DevicesIcon from '@mui/icons-material/Devices';
 
 
 export const Services = () =>{
-
-
     return(
         <Box sx={{background:'black',color:'whitesmoke',}}>
                     <MainContainer>
