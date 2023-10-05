@@ -8,6 +8,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+.body{
+  background-color: black;
+}
 
 
 .progress{
@@ -16,6 +22,7 @@
   width: 100%;
 
 };
+
 .progress[data-progress="70%"]{
   width: 100%;
   background: linear-gradient(90deg, #007acc 70%, rgb(121, 120, 120) 0%);

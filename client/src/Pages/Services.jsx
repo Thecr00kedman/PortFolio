@@ -1,5 +1,4 @@
 import { Box,Card,CardContent,Grid,Typography } from "@mui/material"
-import Navbar from "../Components/Navbar/Navbar"
 import CodeIcon from '@mui/icons-material/Code';
 import { CardHeading,CardIcon,ServicesCard,MainContainer } from "./styles";
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
@@ -10,11 +9,12 @@ export const Services = () =>{
 
 
     return(
-        <Box>
-            <Navbar/>
-                    <MainContainer style={{alignItems:'center',textAlign:'center'}}>
+        <Box sx={{background:'black',color:'whitesmoke'}}>
+                    <MainContainer>
+                        <div style={{padding:'1rem'}}>
                         <Typography variant="h3" sx={{fontWeight:"600"}}>My Services</Typography>
                         <Typography sx={{color:"red", fontSize:"20px", fontWeight:'700'}}>-What I Provide-</Typography>
+                        </div>
                   <Grid container spacing={2}>
                          <Grid item xs={12} sm={12} md={4} lg={4} sx={{display:'flex'}}>
                                  <ServicesCard> 

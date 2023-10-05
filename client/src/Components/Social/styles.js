@@ -4,8 +4,8 @@ import { Box } from "@mui/material";
 
 export const SocialContainer = styled(Box)((theme)=>({
     display:'flex',
+    background:'black',
     flexDirection:'row',
-    margin:'0.5rem 2rem',
     padding:"0.1rem 1rem",
     justifyContent:'center',
     gap:'2rem',
@@ -17,7 +17,8 @@ export const SocialContainer = styled(Box)((theme)=>({
      color:"black"
     },
     "&>a>svg":{
-     fontSize:"30px"
+     fontSize:"30px",
+     color:'whitesmoke',
     },
     "& a>svg:hover":{
      color:'#1976d2',

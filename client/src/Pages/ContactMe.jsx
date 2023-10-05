@@ -1,7 +1,5 @@
 import React from "react"
-import Navbar from "../Components/Navbar/Navbar"
-import { Box,Typography,Button, Grid } from "@mui/material"
-import Social from "../Components/Social/Social";
+import { Box,Typography,Button } from "@mui/material"
 import { Left } from "./styles";
 import MailIcon from '@mui/icons-material/Mail';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -23,9 +21,7 @@ export const ContactMe = ()=> {
     return(
        
        <>
-       <Navbar />
-
-       <div style={{marginTop:'1rem',paddingBottom:'2rem'}}>
+       <div style={{backgroundColor:'black',color:'whitesmoke',paddingBottom:'2rem'}}>
        <Typography variant="h3" sx={{textAlign:'center'}}>Contact Me</Typography>
        <div style={{margin:"0.5rem 2rem",alignItems:'center'}}>
        
@@ -39,8 +35,6 @@ export const ContactMe = ()=> {
        </div>
        <Box style={{textAlign:'center',padding:'2rem'}}><Button variant="contained" onClick={handleContactClick}>Contact Me</Button></Box> 
        </div>
-       
-       <Social />
        
        </>
     )

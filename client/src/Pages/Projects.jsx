@@ -2,23 +2,20 @@ import {
   CardContent,
   Typography,
   CardActions,
-
   Button,
   Box
 } from "@mui/material";
 import { CardContainer,VideoContainer,CardBox } from "./styles";
-import Navbar from "../Components/Navbar/Navbar";
 import FoodZone from "../assets/Media/FoodZone.mp4";
-import Social from "../Components/Social/Social";
-import Contact from "../Components/Header/Contacts/Contact";
+
+
 
 export const Projects = () => {
   return (
     <>
-    <Navbar />
-    <Box sx={{margin:'1rem 2rem'}}>
+    <Box sx={{color:"whitesmoke",background:'black'}}>
     <div style={{alignItems:'center'}}>
-     <Box><Typography variant="h3" sx={{fontWeight:'600'}}>My Projects</Typography></Box>
+     <Box><Typography variant="h3" sx={{fontWeight:'500',textAlign:'center'}}>My Projects</Typography></Box>
 
       <div>
         <CardContainer>
@@ -37,13 +34,11 @@ export const Projects = () => {
             </Typography>
           </CardContent>
           </CardBox>
-          <CardActions><Button variant="outlined" href="https://github.com/Thecr00kedman/Food-Ordering-App">View Source Code</Button></CardActions>
+          <CardActions><Button variant="contained" href="https://github.com/Thecr00kedman/Food-Ordering-App">View Source Code</Button></CardActions>
 
         </CardContainer>
       </div>
     </div>
-    <Social/>
-    <Contact/>
     
     </Box>
     </>

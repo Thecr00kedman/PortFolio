@@ -5,10 +5,10 @@ export const CardContainer = styled(Box)((theme) => ({
   display: "flex",
   flexDirection: 'column',
   overflow: 'hidden',
-  margin: '0.5rem',
+  height:'500px',
+  
+  
   padding:'1rem',
-  boxShadow: "2px 2px 5px 2px #333",
-  borderRadius:'10px',
   "& p": {
     "@media only screen and (min-width: 521px) and (max-width: 768px)": {
       /* Styles for screens between 521px and 768px wide */
@@ -86,9 +86,12 @@ export const MainBox =styled(Box)((theme)=>({
 }))
 
 export const CardIcon = styled(Box)((theme)=>({
+  alignItems:'center',
   "& svg":{
     fontSize:'3rem',
-    color:"red"
+    color:"red",
+    border:'none',
+    
   }
 
 }))
@@ -97,26 +100,29 @@ export const CardHeading = styled(Box)((theme)=>({
 }))
 export const ServicesCard = styled(Box)((theme)=>({
       flex:'1',
+      border:'1px solid whitesmoke',
       alignItems:'center',
       padding:"8px 12px",
-      boxShadow:"1px 2px 9px 2px black",
+      boxShadow:"1px 2px 9px 2px white",
       borderRadius:'8px',
       textAlign:'center'
 }))
 export const MainContainer = styled(Box)((theme)=>({
-      margin:"8px 12px",
+      margin:"0 12px",
       alignItems:'center',
+      textAlign:'center',
+      justifyContent:'center',
+      paddingBottom:'1rem',
       "& div":{
         padding:'0.5rem',
-
-      }
+      },
+      
 }))
 export const Left = styled(Box)((theme)=>({
        borderRadius:"10px",
        display:'flex',
        flexDirection:'column',
        boxShadow:'1px 2px 6px 2px black',
-       background:'#F7FAFA',
        padding:'5px 8px',
      
       "& div":{
@@ -134,7 +140,7 @@ export const Left = styled(Box)((theme)=>({
           fontSize:"14px",
          },
          "& div>div:hover":{
-          background:'#D7D8DA',
+          color:'#38B6CF',
           cursor:"pointer"
          }
 
@@ -144,7 +150,6 @@ export const Left = styled(Box)((theme)=>({
 
 export const CardHeader = styled(Box)((theme)=>({
   textAlign:'center',
-  marginTop:'0.8rem',
   "& p":{
     color:'red',
     textAlign:'center'
@@ -167,12 +172,15 @@ export const RightPart = styled(Box)((theme)=>({
   gap:'10px',
  justifyContent:'center',
  boxShadow:'2px 2px 9px 3px #ccc',
- padding:'1rem 1.5rem',
+ padding:'2rem 1rem',
+ borderRadius:'1rem',
+height:"20rem",
+textAlign:'center',
  
 
   "& div>div":{
     display:"flex",
-    whiteSpace:'nowrap',
+    textAlign:'left',
     flexDirection:'row',
     justifyContent:'space-between'
   },

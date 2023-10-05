@@ -1,5 +1,5 @@
 import { Box,Typography } from "@mui/material"
-import { CardHeader,CardContent,LeftPart,RightPart } from "./styles"
+import { CardHeader,CardContent,RightPart } from "./styles"
 import Navbar from "../Components/Navbar/Navbar"
 
 
@@ -7,10 +7,9 @@ export const Skills = ()=>{
 
 
     return(
-          <Box>
-            <Navbar />
+          <Box sx={{background:'black',color:'whitesmoke',height:'500px'}}>
             <CardHeader>
-                <h1>My skills</h1>
+               <Typography variant="h3">My Skills</Typography>
                 <Typography>-What I know-</Typography>
             </CardHeader>
             <CardContent>

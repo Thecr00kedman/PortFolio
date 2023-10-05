@@ -1,19 +1,23 @@
 import { Link } from "react-router-dom"
 import { Nav,Navcontainer } from "./styles"
 import ViewInArIcon from '@mui/icons-material/ViewInAr';
+// import { useState } from "react";
 
 export const Navbar =()=>{
+    // const[open,setOpen] = useState(true)
+    // const handleOpen = ()=>{
+
+    // }
 
     return(
         <Nav>
             <Navcontainer>
                     <Link style={{  display:'flex', flexDirection:'row',}} to={"/"}><ViewInArIcon /><h3>Portfolio</h3></Link>
                 <div>
-                    <Link to={"/"}>Home</Link>
-                    <Link to={"/Skills"}>Skills</Link>
-                    <Link to={'/Projects'}>Projects</Link>
-                    <Link to={"/Services"}>Services</Link>
-                    <Link to={"/ContactMe"}>Contact</Link>
+                    <a href="#Skills" >Skills</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Services">Services</a>
+                    <a href="#Contact">Contact</a>
                 </div>
             </Navcontainer>
         </Nav>

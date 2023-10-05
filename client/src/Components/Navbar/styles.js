@@ -1,11 +1,14 @@
 import {Box,styled} from '@mui/material'
 
 export const Nav = styled(Box)((theme)=>({
-    maxWidth:'100vw',
+    width:'100vw',
     background:'black',
     whiteSpace:'nowrap',
     overflow:'hidden',
-    boxShadow: "2px 2px 5px 2px #333",
+    border:'none',
+    position:'fixed',
+    borderBottom:"1px solid whitesmoke",
+
     "@media only screen and (max-width: 520px)": {
         /* Styles for screens up to 768px wide */
           width: "100%",
@@ -27,7 +30,6 @@ export const Nav = styled(Box)((theme)=>({
 export const Navcontainer= styled(Box)((theme)=>({
     display:"flex",
     alignItems:'center',
-    width:'100%',
     justifyContent:'space-between',
     
     "& a":{
