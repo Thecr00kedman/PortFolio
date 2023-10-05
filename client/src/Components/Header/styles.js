@@ -42,7 +42,6 @@ export const ImageContainer = styled(Box)((theme)=>({
         width:'9rem',
         paddingTop:'1rem',
         height:'9rem',  
-
       },
     "@media (max-width: 519px)": {
         /* Styles for screens up to 519px wide */
