@@ -14,6 +14,7 @@ export const HeaderContainer=styled(Box)((theme)=>({
                       /* Styles for screens up to 519px wide */  
                       display:'flex',
                       flexDirection:"column-reverse",
+                      justifyContent:'space-between',
                       padding:'1rem',
                       textAlign:'center',  
                       marginTop:"1rem",
