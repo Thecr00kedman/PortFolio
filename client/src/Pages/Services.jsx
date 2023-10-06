@@ -9,8 +9,8 @@ export const Services = () =>{
     return(
         <Box sx={{background:'black',color:'whitesmoke',}}>
                     <MainContainer>
-                        <div style={{padding:'1rem'}}>
-                        <Typography variant="h3" sx={{fontWeight:"600"}}>My Services</Typography>
+                        <div style={{padding:'1rem 0.2rem'}}>
+                        <Typography variant="h3">My Services</Typography>
                         <Typography sx={{color:"red", fontSize:"20px", fontWeight:'700'}}>-What I Provide-</Typography>
                         </div>
                   <Grid container spacing={2}>
