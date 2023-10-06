@@ -7,7 +7,7 @@ export const HeaderContainer=styled(Box)((theme)=>({
      justifyContent:'center',
      background:'black',
      color:'whitesmoke',
-     padding:'2rem 2rem',
+     padding:'0.5rem 2rem',
      height:'100vh',
      alignItems:'center',
             "@media only screen and (max-width: 519px)": {
@@ -16,10 +16,9 @@ export const HeaderContainer=styled(Box)((theme)=>({
                       flexDirection:"column-reverse",
                       padding:'1rem',
                       textAlign:'center',  
-                      marginTop:"3.4rem",
+                      marginTop:"1rem",
                       // paddinTop:'2rem'
-
-                                   
+                 
                     },
       "& div":{
         padding:"0.2rem"
