@@ -6,7 +6,7 @@ export const SocialContainer = styled(Box)((theme)=>({
     display:'flex',
     background:'black',
     flexDirection:'row',
-    padding:"0.1rem 1rem",
+    padding:"2rem 1rem",
     justifyContent:'center',
     gap:'2rem',
     "& div":{
