@@ -8,19 +8,19 @@ export const HeaderContainer=styled(Box)((theme)=>({
      background:'black',
      color:'whitesmoke',
      padding:'0.5rem 2rem',
+     whiteSpace:'normal',
      height:'100vh',
      alignItems:'center',
             "@media only screen and (max-width: 519px)": {
                       /* Styles for screens up to 519px wide */  
                       display:'flex',
                       flexDirection:"column-reverse",
-                      justifyContent:'space-between',
+                      justifyContent:'space-evenly',
                       padding:'1rem',
                       textAlign:'center',  
-                      marginTop:"1rem",
-                      // paddinTop:'2rem'
-                 
+
                     },
+
       "& div":{
         padding:"0.2rem"
       },
@@ -42,14 +42,14 @@ export const ImageContainer = styled(Box)((theme)=>({
       "@media (min-width:520px max-width: 768px)": {
         /* Styles for screens up to 768px wide */
         width:'9rem',
-        paddingTop:'1rem',
+        paddingTop:'0.5rem',
         height:'9rem',  
       },
     "@media (max-width: 519px)": {
         /* Styles for screens up to 519px wide */
         width:'12rem',
         height:'12rem',   
-        paddingTop:'1rem',
+        paddingTop:'0.5rem',
         whiteSpace:'nowrap'
             
       },
