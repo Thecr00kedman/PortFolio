@@ -2,6 +2,7 @@ import {Box,styled} from '@mui/material'
 
 export const Nav = styled(Box)((theme)=>({
     width:'100vw',
+    paddingRight:'2rem',
     background:'black',
     whiteSpace:'nowrap',
     overflow:'hidden',

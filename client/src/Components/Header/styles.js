@@ -9,15 +9,17 @@ export const HeaderContainer=styled(Box)((theme)=>({
      color:'whitesmoke',
      padding:'2rem 2rem',
      height:'100vh',
-     marginTop: '0px', 
      alignItems:'center',
-     
             "@media only screen and (max-width: 519px)": {
                       /* Styles for screens up to 519px wide */  
                       display:'flex',
                       flexDirection:"column-reverse",
                       padding:'1rem',
-                      textAlign:'center'                 
+                      textAlign:'center',  
+                      marginTop:"3.4rem",
+                      // paddinTop:'2rem'
+
+                                   
                     },
       "& div":{
         padding:"0.2rem"
